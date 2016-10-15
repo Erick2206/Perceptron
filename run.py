@@ -14,4 +14,7 @@ ppn= Perceptron()
 ppn.fit(X,y)
 
 setosa_example=[5.2,1.8]
+versicolor_example=[6.4,4.6]
+
 print ppn.predict(setosa_example)
+print ppn.predict(versicolor_example)
